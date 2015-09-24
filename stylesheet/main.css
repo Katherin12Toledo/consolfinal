@@ -1,0 +1,200 @@
+
+
+.mybackground {
+
+  background: url(../images/pic1blurred.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+margin: 0 auto;
+font-size: 10px;
+
+}
+
+.allwrapper {
+
+padding: 2.5rem;
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; 
+             -moz-box-sizing: border-box; 
+            box-sizing: border-box; }
+body, html {  padding: 0; margin: 0;}
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    
+    
+    margin: auto 0;
+  
+    padding: 0;
+    margin: 0;
+    
+    cursor: auto;
+   
+}
+
+/*border: 1px solid red;*/
+
+
+.container {
+width: 575px;
+padding-top: 2rem;
+padding-left: 4rem;
+
+line-height: 2rem;
+font-family: font-family: 'Montserrat', sans-serif, Helvetica;
+font-size: 14px;
+
+margin-top: 5rem;
+margin-bottom: 5rem;
+margin-left:  0 auto;
+margin-right: 0 auto;
+
+margin: 0 auto;
+
+/*background-color: #87CEFA;*/
+border: 3px solid white;
+/*box-shadow: 3px 3px 5px 6px #ccc;
+-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+
+*/
+/*background-color: #DCF0F7;*/
+
+}
+
+.boxforcarelinked a {
+
+width: 300px;
+
+margin-top: 2rem;
+margin-bottom: 5rem;
+font-size: 30px; font-weight:normal; font-family: helvetica, arial narrow;
+text-align: center;
+margin-left: 8rem;
+color: white;
+
+text-decoration: none;
+
+}
+
+.caregivertittle--box {
+
+/*border: 3px solid black; width: 350px;*/
+margin-left: 8.2rem;
+font-family: helvetica;
+font-size: 20px;
+
+}
+
+.patienttittle--box {
+
+margin-left: 9.3rem;
+font-family: helvetica;
+font-size: 20px;
+
+}
+
+.form-control {
+
+margin-right: 70%;
+float: right;
+
+}
+
+select {
+margin-right: 70%;
+float: right;
+
+}
+
+textarea {
+margin-right: 70%;
+float: right;
+
+}
+
+.medform {
+
+padding-top: 0.5rem;
+
+}
+
+.healthform {
+
+padding-top: 3.5rem;
+
+}
+
+.bloodtype {
+height: 40px;
+margin-left: 4rem;
+
+}
+
+.pure-input-1-2 {
+width: 120px;
+height: 100px ; 
+margin-left: 2.5rem;
+padding: none;
+}
+
+.medicalhistorytext {
+
+margin-left: 0.5rem;
+
+}
+
+.pure-control-groupmed {
+
+width: 600px; /*imaginary*/
+
+}
+
+.boxesbuttons {
+width: 300px;
+
+margin-left: 6rem;
+
+margin-top: 2rem;
+
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+ .button-submit {
+
+background: grey; /*#6699FF*/; 
+
+color:white;
+border-radius: 10px;
+
+margin-right: 1rem;
+}  
