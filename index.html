@@ -1,0 +1,184 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="stylesheet/login.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+    $("#myTab li:eq(1) a").tab('show');
+});
+</script>
+<style type="text/css">
+  .bs-example{
+    margin: 20px;
+  }
+</style>
+
+
+
+  <title>CARELINKED</title>
+</head>
+
+<body class="mybackground">
+
+<!--<div class="caretitle"><p>CARELINKED</p></div> -->
+ 
+
+ <div class="allwrapper clearfix">
+
+<div class="moduleindex">
+
+<a href="index.html">
+<div class="boxforcarelinked clearfix">
+CARELINKED </div> </a>
+
+
+    <div class="login-loginbox">
+      <!-- Nav tabs -->
+      <div class="topnav-tabs">
+
+        <ul class="nav nav-tabs " role="tablist">
+
+          <li class="active col-md-4">
+
+            <a href="#caregiver" aria-controls="caregiver" role="tab" data-toggle="tab">Caregiver </a>
+          </li> 
+
+          <li class="col-md-4">
+
+            <a href="#patient" aria-controls="patient" role="tab" data-toggle="tab">Patient</a></li>
+          
+
+          <li  class="col-md-4">
+            <a href="#hospital" aria-controls="hospital" role="tab" data-toggle="tab">Hospital</a></li>
+          
+          </ul> 
+      </div>
+
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="caregiver">
+            
+            <input type="email" class="form-control input-lg" id="email" placeholder="Caregiver Email" required="" /><br>
+
+            <input type="password" class="form-control input-lg" id="password" placeholder="Caregiver password" required="" /> <br>
+
+<div class="listofpatients">
+<span>Patient:
+<select>
+  <option value="A+">Anne Johnson</option>
+  <option value="A-">Carol Moore</option>
+  <option value="B+">Clarck Davis</option>
+  <option value="AB+">Gregory Carter</option>
+  <option value="AB-">Jason Mitchell</option>
+  <option value="B+">Julia Brown</option>
+</select> </span>
+  </div> 
+
+            </div>
+
+
+      <div role="tabpanel" class="tab-pane fade" id="patient">
+
+         <input type="email" class="form-control input-lg" id="email" placeholder="Patient Email" required="" /> <br>
+         
+         <input type="password" class="form-control input-lg" id="password" placeholder="Patient password" required="" /> <br>
+
+      </div>
+
+      
+      <div role="tabpanel" class="tab-pane fade" id="hospital">
+         
+          <input type="text" class="form-control input-lg" id="text" placeholder="Hospital CL ID" required="" /> <br>
+
+         <input type="email" class="form-control input-lg" id="email" placeholder="Email" required="" /> <br>
+         
+         <input type="password" class="form-control input-lg" id="password" placeholder="password" required="" /> <br>
+
+      </div> 
+
+        
+       <!-- <div role="tabpanel" class="tab-pane" id="profile">WORD</div>
+        <div role="tabpanel" class="tab-pane" id="messages">WORD</div>
+        <div role="tabpanel" class="tab-pane" id="settings">WORD</div> -->
+      </div>
+
+    </div>  <!-- THIS CLOSES LOGIN BOX CLAss -->
+
+<div class="thesetwo--loginbuttons">
+
+
+<div class="box911--button">
+      <a href="#">
+      <button type="button" class="js-911-modal-btn buttonratio-911-submit pure-button" data-toggle="modal" data-target=".js-911-modal-popup">
+      911</button> </div> 
+
+
+ <div class="boxindexlogin clearfix">
+  
+  <button class="button-indexlogin pure-button">
+    LOGIN</button>  </div> 
+
+  </div> 
+      <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> 
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade js-911-modal-popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel"> CONTACTING... 911 CONFIRM</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </a>
+    </div>    <!-- Closes box911button-->  
+
+</div>  <!-- closes boxboxvuttons-->
+
+
+ <!--<div class="textarea--boxes">
+   <input type="text" name="name" placeholder="Name" required class="form-control input-lg" value="" /> <br>   -->
+
+
+<!--<div class="bottom--wrapper" <a href="#">Create account</a> or 
+            <a href="#">reset password</a> <br> >-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+       
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+</html>
