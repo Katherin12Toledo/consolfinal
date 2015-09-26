@@ -292,12 +292,13 @@ text-align: center;
 }
 
 
+.hyper--box {
 
 
+border: 3px solid green;
+background-color: green;
 
-
-
-
+}
 
 
 /*<div class="divisorydash">

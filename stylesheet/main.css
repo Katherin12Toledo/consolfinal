@@ -63,26 +63,33 @@ body, html {
 
 .container {
 width: 575px;
-padding-top: 2rem;
-padding-left: 4rem;
+height: 0 auto;
+padding-top: 5rem;
 
-line-height: 2rem;
-font-family: font-family: 'Montserrat', sans-serif, Helvetica;
+margin-top: 7rem;
+margin-bottom: 7rem;
+
+padding-left: 7rem;
+padding-right: 7rem;
+
+line-height: 2.3rem;
+font-family: 'Montserrat', sans-serif, Helvetica;
 font-size: 14px;
 
-margin-top: 5rem;
-margin-bottom: 5rem;
 margin-left:  0 auto;
 margin-right: 0 auto;
 
 margin: 0 auto;
 
-/*background-color: #87CEFA;*/
-border: 3px solid white;
+background-color: #33ccff;
+
+/*border: 2px solid black;*/
+/*border: 3px solid white;*/
 /*box-shadow: 3px 3px 5px 6px #ccc;
 -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
 
+#87CEFA
 */
 /*background-color: #DCF0F7;*/
 
@@ -90,23 +97,35 @@ border: 3px solid white;
 
 .boxforcarelinked a {
 
-width: 300px;
-
-margin-top: 2rem;
-margin-bottom: 5rem;
-font-size: 30px; font-weight:normal; font-family: helvetica, arial narrow;
+font-size: 30px; 
+font-weight:normal; 
+font-family: helvetica, arial narrow;
 text-align: center;
-margin-left: 8rem;
-color: white;
 
+color: black;
 text-decoration: none;
+
+}
+
+
+.boxforcarelinked  {
+
+width: 300px;
+margin-left: 13.4rem;
+font-weight: bolder;
+margin-top: 2rem;
+margin-bottom: 2rem; 
+
+/*border: 2px solid green;*/
 
 }
 
 .caregivertittle--box {
 
-/*border: 3px solid black; width: 350px;*/
-margin-left: 8.2rem;
+/*border: 3px solid black; */
+width: 250px;
+margin-left: 11.6rem;
+margin-bottom: 3rem;
 font-family: helvetica;
 font-size: 20px;
 
@@ -139,7 +158,7 @@ float: right;
 
 }
 
-.medform {
+/*.medform {
 
 padding-top: 0.5rem;
 
@@ -149,34 +168,93 @@ padding-top: 0.5rem;
 
 padding-top: 3.5rem;
 
+}*/
+
+ .box--editsubmit {
+
+width: 400px;
+/*margin-top: 3rem;*/
+margin-left: 16rem;
+margin-bottom: 4rem;
+margin-top: 3rem;
+
+/*border: 2px solid black;*/
+
+} 
+
+
+.bloodtype{
+/*width: 250px;*/
+margin-left: 4.5rem;
+margin-bottom: 1rem;
+margin-top: 1rem; 
+
+font-weight: bold;
+
+display: inline-block;
+float: left;
+
+/*border: 2px solid black;*/
 }
 
-.bloodtype {
-height: 40px;
-margin-left: 4rem;
+.bloodtype select {
 
+margin-left: 51rem; 
+
+}
+
+.bloodtype--andmedhistory{
+
+width: 400px;
+padding-left: 1rem;
+/*margin-bottom: 1rem;*/
+display: inline-block;
+
+/*border: 2px solid red;*/
+
+}
+
+.pure-control-grouphisto {
+font-weight: bold;
+width: 500px; /*imaginary*/
+display: inline-block;
+margin-left: 1.5rem;
+/*border: 2px solid yellow;*/
 }
 
 .pure-input-1-2 {
-width: 120px;
+width: 150px;
 height: 100px ; 
-margin-left: 2.5rem;
-padding: none;
+
+font-weight: bold;
+display: inline-block; 
+
+/*border: 2px solid blue;*/
+
 }
 
 .medicalhistorytext {
 
-margin-left: 0.5rem;
+margin-right: 1.7rem;
+
+/*border: 2px solid green;*/
+display: inline-block;
 
 }
 
-.pure-control-groupmed {
 
-width: 600px; /*imaginary*/
 
-}
 
-.boxesbuttons {
+
+
+
+
+
+
+
+
+
+/*.boxesbuttons {
 width: 300px;
 
 margin-left: 6rem;
@@ -187,14 +265,6 @@ margin-top: 2rem;
   font-size: 16px;
   text-align: center;
   
-}
+} */
 
- .button-submit {
-
-background: grey; /*#6699FF*/; 
-
-color:white;
-border-radius: 10px;
-
-margin-right: 1rem;
-}  
+ 
