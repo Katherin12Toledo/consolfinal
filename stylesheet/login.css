@@ -40,7 +40,6 @@ text-decoration: none;
 
 }
 
-
 .moduleindex{
 
   position:relative;
@@ -50,6 +49,8 @@ text-decoration: none;
   height: 520px;
   margin-left:auto;
   margin-right:auto;
+
+text-align: center;
 
 background-color: white;
 
@@ -344,7 +345,11 @@ display: inline-block;
   /*border: 2px solid black;*/
 
 }
-
+ /*<style type="text/css">
+  .bs-example{
+    margin: 20px;
+  }
+</style>*/
 
 
 
