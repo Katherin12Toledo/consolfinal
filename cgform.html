@@ -12,6 +12,23 @@
 
 <link rel="stylesheet" type="stylesheet/main.css" href="main.css">
 
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#myModal").modal('show');
+  });
+</script>
+
 
 <div class="allwrapper"> 
 
@@ -29,11 +46,12 @@
 CARELINKED </div> </a>
 
   <div class="caregivertittle--box">
-  <p>CAREGIVER FORM</p> </div>
+  <p>TO FILL BY CAREGIVER</p> </div>
 
 <form class="pure-form pure-form-aligned">
 
     <fieldset>
+
         <div class="pure-control-group">
             <label for="name">Name:</label>
             <input id="name" type="text" placeholder="Name">
@@ -99,11 +117,11 @@ CARELINKED </div> </a>
             <input id="allergies" type="text" placeholder="Allergies">
         </div>
 
- 
+
+ <div class="bloodtype--andmedhistory">     
 <div class="bloodtype">
-<span>Blood Type:
-<select>
-  <option value="A+">A+</option>
+<span>Blood Type:<select>  
+ <option value="A+">A+</option>
   <option value="A-">A-</option>
   <option value="B+">B+</option>
   <option value="AB+">AB+</option>
@@ -116,27 +134,70 @@ CARELINKED </div> </a>
   </div> 
 
 
- <div class="pure-control-groupmed">
-            <div class="medicalhistorytext">Medical History: 
-          <input class="pure-input-1-2" type="text" placeholder="Describe: physical condition/ surgeries,etc."> </div>
+ <div class="pure-control-grouphisto">
+            <div class="medicalhistorytext">Medical History: </div>
+          <input class="pure-input-1-2" type="text" placeholder="Describe: physical condition/ surgeries,etc."> 
 </div>
+          </div>
+ <!-- bloodtype-andmedhistory closes -->
 
-        <div class="boxesbuttons">
-  <button class="button-submit pure-button">
+<!--</div>
+  <button class="button-edit pure-button">
     Edit </button> 
 
-<button class="button-submit pure-button">
-    Submit</button>
+<a href="#">
+      <button type="button" class="js-submitingthis-modal-btn buttonratio-submitingthis-submit pure-button" data-toggle="modal" data-target=".js-submitingthis-modal-popup"> Submit </button> -->
 
-     </div>
-         
+  <!--  <div class="boxmuch--button"> </div> 
+      <a href="#">
+      <button type="button" class="js-much-modal-btn buttonratio-much-submit pure-button" data-toggle="modal" data-target=".js-much-modal-popup">
+      911</button>   -->
 
-                </fieldset>
+<div class="box--editsubmit">
+
+<button type="button" class="btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Edit
+</button>
+
+<button type="button" class="btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Submit
+</button>
+                </div>
+      <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> 
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+
 </form>
 
-</body>
+    </div>
         </div>
- 
- </div>
+</div>
+
+</fieldset>
+
+
+    </div>
+ </div> </div>
+
+ </body>
 
 </html>
