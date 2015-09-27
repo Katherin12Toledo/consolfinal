@@ -1,0 +1,60 @@
+{
+  "caregivers" : {
+    "stuff" : "more stuff"
+  },
+  "hospitals" : {
+    "stuff" : "more stuff"
+  },
+  "patients" : {
+    "ca078ec5-12da-4f4f-8695-e440394978e8" : {
+      "generalInfo" : {
+        "Allergies" : [ "cow's milk", "eggs", "shellfish", "tree nuts", "wheat", "fish", "peanuts" ],
+        "address" : {
+          "address1" : "123 Broadway",
+          "address2" : "Apt 3",
+          "city" : "New York",
+          "state" : "NY",
+          "zipcode" : 11111
+        },
+        "fullName" : "Jane Doe",
+        "mediactions" : {
+          "ibuprofen" : {
+            "dosage" : "600 mg",
+            "frequency" : "4x weekly"
+          },
+          "vicodin" : {
+            "dosage" : "50mg",
+            "frequency" : "3x weekly"
+          },
+          "zoloft" : {
+            "dosage" : "50 mg",
+            "frequency" : "daily"
+          }
+        },
+        "physicalStats" : {
+          "bloodType" : "O",
+          "height" : 63,
+          "sex" : "female",
+          "weight" : 160
+        },
+        "socialSecurity" : 123561234,
+        "telephone" : {
+          "home" : 1234567890,
+          "mobile" : 9171234567
+        }
+      },
+      "medicalNotes" : {
+        "assessment" : "In summary, the patient is a 50-year-old woman with longstanding headaches who has had an acute onset of pupil-sparing partial third nerve palsy on the right (involving levator palpabrae, superior rectus, and medial rectus) associated with a bifrontal headache. Because this is an isolated third nerve palsy without involvement of other cranial nerves or orbital abnormalities, the lesion is localized to the nerve itself, e.g. in the subarachnoid space. Ophthalmoplegic migraine remains a likely diagnosis given the history of migraine with aura, even though the current headache is different in character from her usual headaches and is not associated with visual aura, nausea/vomiting, or photophobia. However, other potentially serious causes of third nerve palsy must be excluded. If a third nerve palsy is due to a compressive lesion, the pupillary fibers will generally become involved within about one week of the onset of symptoms. So the fact that her pupil is normal in size and reactive to light weighs against the diagnosis of a compressive lesion such as an aneurysm or tumor, but does not eliminate the possibility.\n\n\t\t\t\t\tThe MRI does not show evidence of a mass lesion, but an aneurysm cannot be completely excluded without an angiogram. Another potentially serious cause of the third nerve palsy is meningitis. The patient is afebrile, has no meningeal signs, is well-appearing, and has been stable over three days, making bacterial meningitis highly unlikely, but atypical meningitis including fungal, Lyme, sarcoid or carcinomatous meningitis are possibilities. Finally, the patient may have a vascular lesion of the third nerve due to unrecognized diabetes.\n\n\t\t\t\t\tThe appearance of the MRI abnormalities is non-specific. The lesions are potentially explainable by migraines, but are also consistent with hypertension or a vasculopathy. The patient denies a history of hypertension, is not currently hypertensive, and has no risk factors for vascular disease, but the possibility of a genetic disorder such as CADASIL cannot be excluded given the lack of paternal history.",
+        "currentCondiiton" : "The patient is a 50-year-old right-handed woman with a history of chronic headaches who complains of acute onset of double vision and right eyelid droopiness three days ago.",
+        "familyHistory" : "Her mother had migraines and died at the age of 70 after a heart attack. Her maternal grandfather had a stroke at age 69. There is no other family history of stroke or vascular disease, but she has no information about her father’s side of the family.",
+        "generalPhysicalExamination" : "The patient is obese but well-appearing. Temperature is 37.6, blood pressure is 128/78, and pulse is 85. There is no tenderness over the scalp or neck and no bruits over the eyes or at the neck. There is no proptosis, lid swelling, conjunctival injection, or chemosis. Cardiac exam shows a regular rate and no murmur.",
+        "historyOfPresentIllness" : "Mrs. Smith states that on Sunday evening (7/14/03) about 20 minutes after sitting down to work at her computer, she developed blurred vision, which she describes as the words on the computer looking fuzzy and seeming to run into each other. When she looked up at the clock on the wall, she had a hard time making out the numbers. At the same time, she also noted a strange sensation in her right eyelid. She went to bed and upon awakening the following morning, she was unable to open her right eye. When she lifted the right eyelid with her fingers, she had double vision with the objects appearing side by side. The double vision was most prominent when she looked to the left, but was also present when she looked straight ahead, up, down, and to the right, and went away when she closed either of her eyes. She also noted that she had pain in both of her eyes that increased if she moved her eyes around, especially on looking to the left. She was seen in the Alton Memorial Hospital ER and subsequently transferred to BJH by ambulance. \n\n\n\t\t\t\tMrs. Smith also notes that for the past two to three weeks, she has been having intermittent pounding bifrontal headaches that worsen with straining, such as when coughing or having a bowel movement. The headaches are not positional and are not worse at any particular time of day. She rates the pain as 7 or 8 on a scale of 1 to 10, with 10 being the worst possible headache. The pain lessened somewhat when she took Vicodin that she had lying around. She denies associated nausea, vomiting, photophobia, loss of vision, seeing flashing lights or zigzag lines, numbness, weakness, language difficulties, and gait abnormalities. Her recent headaches differ from her “typical migraines,” which have occurred about 4-6 times per year since she was a teenager and consist of seeing shimmering white stars move horizontally across her vision for a couple minutes followed by a pounding headache behind one or the other eye, photophobia, phonophobia, and nausea and vomiting lasting several hours to two days. She has never taken anything for these headaches other than ibuprofen or Vicodin, both of which are partially effective. The last headache of that type was two months ago.\n\n\t\t\t\tHer visual symptoms have not changed since the initial presentation. She denies previous episodes of transient or permanent visual or neurologic changes. She denies head trauma, recent illness, fever, tinnitus or other neurologic symptoms. She is not aware of a change in her appearance, but her husband notes that her right eye seems to protrude; he thinks that this is a change in the last few days.",
+        "pastMedicalHistory" : "1) Migraine headaches, as described in HPI. 2) Depression. There is no history of diabetes or hypertension.",
+        "plan" : "Problem 1. R IIIrd nerve palsy.\n\n\t\t\t\t\t\t\tThe patient will undergo a cerebral angiogram to evaluate for an aneurysm, particularly a posterior communicating aneurysm. Patient has been informed of risks and benefits of this procedure and it is scheduled for AM. She will be kept NPO for the procedure.\n\t\t\t\t\t\t\tA lumbar puncture will be performed with opening pressure assessed and CSF sent for cell count and differential, protein, glucose, cultures and cytology. She will have her glucose and hemoglobin A1C drawn to evaluate for diabetes.\n\t\t\t\t\t\t\tShe will have close observation for possible neurologic worsening including neuro checks every 4 hours for first 24 hours.\n\t\t\t\t\t\t\tShe will be given an eye patch for comfort to eliminate the diplopia.\n\n\t\t\t\t\t\tProblem 2. Headache.\n\n\t\t\t\t\t\t\tShe will be given a trial of naprosyn 400 mg po bid; if this is ineffective, she may require narcotic analgesia while her evaluation is being completed. If the cerebral angiogram and lumbar puncture are negative and her headache does not improve, she may be a candidate for IV dihydroergotamine treatment. Despite the infrequency of her migraines, the occurrence of a debilitating migraine with neurological deficits warrants the use of a prophylactic agent. A tricyclic antidepressant would be a good choice given her history of depression.\n\n\t\t\t\t\t\tProblem 3. Depression.\n\n\t\t\t\t\t\t\tThe patient denies current symptoms and will continue Zoloft at current dose.\n\n\t\t\t\t\t\t\tProblem 4. Obesity.\n\n\t\t\t\t\t\t\tThe patient requests referral to a dietician.",
+        "reviewOfSystems" : "She states that she had an upper respiratory infection with rhinorrhea, congestion, sore throat, and cough about 6 weeks ago. She denies fever, chills, malaise, weight loss, neck stiffness, chest pain, dyspnea, abdominal pain, diarrhea, constipation, urinary symptoms, joint pain, or back pain. Neurologic complaints as per HPI.",
+        "socialHistory" : "the patient lives with her husband and 16-year-old daughter in a 2-story single-family house and has worked as a medical receptionist for 25 years. She denies tobacco or illicit drug use and rarely drinks a glass of wine."
+      },
+      "username" : "JDoe1234"
+    }
+  }
+}

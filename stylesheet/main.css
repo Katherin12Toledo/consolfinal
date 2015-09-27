@@ -81,7 +81,7 @@ margin-right: 0 auto;
 
 margin: 0 auto;
 
-background-color: #33ccff;
+background-color: white; #33ccff;
 
 /*border: 2px solid black;*/
 /*border: 3px solid white;*/
@@ -158,18 +158,6 @@ float: right;
 
 }
 
-/*.medform {
-
-padding-top: 0.5rem;
-
-}
-
-.healthform {
-
-padding-top: 3.5rem;
-
-}*/
-
  .box--editsubmit {
 
 width: 400px;
@@ -182,36 +170,16 @@ margin-top: 3rem;
 
 } 
 
-
-.bloodtype{
-/*width: 250px;*/
-margin-left: 4.5rem;
-margin-bottom: 1rem;
-margin-top: 1rem; 
-
-font-weight: bold;
-
-display: inline-block;
-float: left;
-
-/*border: 2px solid black;*/
-}
-
-.bloodtype select {
-
-margin-left: 51rem; 
-
-}
-
 .bloodtype--andmedhistory{
 
 width: 400px;
 padding-left: 1rem;
-/*margin-bottom: 1rem;*/
+
 display: inline-block;
 
-/*border: 2px solid red;*/
+line-height: 2.5rem;
 
+/*border: 2px solid red;*/
 }
 
 .pure-control-grouphisto {
@@ -242,15 +210,44 @@ display: inline-block;
 
 }
 
+.bloodtype b {
 
 
 
+}
 
 
+/*.medform {
 
+padding-top: 0.5rem;
 
+}
 
+.healthform {
 
+padding-top: 3.5rem;
+
+}*/
+
+/*.bloodtype{
+width: 250px;*/
+/*margin-left: 4.5rem;
+margin-bottom: 1rem;
+margin-top: 1rem; 
+
+font-weight: bold;
+
+display: inline-block;
+float: left;*/
+
+/*border: 2px solid black;*/
+}
+
+/*.bloodtype select {
+
+margin-left: 51rem; 
+
+}*/
 
 
 
