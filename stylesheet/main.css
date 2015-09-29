@@ -177,7 +177,7 @@ margin-top: 5rem;
 
 } 
 
-.bloodtype--andmedhistory{
+.med--history{
 
 width: 400px;
 padding-left: 1rem;
@@ -217,21 +217,22 @@ display: inline-block;
 
 }
 
-.bloodtype b {
-
-
-
-}
-
 
 .modal-content {
 
 width: 800px;
 
-
 }
 
+.innerbox--patientinformation{
 
+margin: 1rem;
+padding: 3rem;
+border-radius: 20px;
+border: 2px solid grey;
+background-color: ;
+
+}
 
 
 

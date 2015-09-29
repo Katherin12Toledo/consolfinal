@@ -33,27 +33,28 @@ CARELINKED </div> </a>
   <!--<div class="caregivertittle--box">
   <p>TO FILL BY CAREGIVER</p> </div> -->
 
+<div class="row">
+  <div class="col-xs-8 col-md-12">
+
 <form class="pure-form pure-form-aligned">
 
     <fieldset>
 
-    	<b><h3>Patient Information</h3></b>
-
+    
+<div class="innerbox--patientinformation">
 <span> <p> 
-		<b>Full Name:</b> Steven Brown.  |  <b>Address:</b> 320 EAST, 116 ST , New York, New York 10048.  |   <b>Mobile Phone:</b> 917-246-0000    |    <b>Home Phone:</b> 509-147-5284        <b>Patient ID:</b> 0000-44444    |    <b>Date of Birth:</b> 04/04/1940    |    <b>Gender:</b> Female.<br>   |    <b>Marital Status:</b> Widow.   |    
-		<b>Age:</b> 75.   |    <b>Height:</b> 5'4".    |    <b>Weight:</b> 110 LBS    |    <b>Emergency Person of Contact:</b> Carl Douglas.<br>  |   <b>EPC Phone:</b> 500-645-8989  <br> <P>
-
-    <b>Language:</b> English.   |    <b>Race:</b> Pacific Islander  |  <b>Soc Sec No:</b> 444-444-4444.   |    <b>Empl. Status:</b> Retired   |   <b>MRN:</b> MR-111-1111  <br> <P>
+    <h3><b>Patient Information</b></h3>
+		<b>Patient ID:</b> TPR-CL-405-1003589.    <b>Full Name:</b> Steven Brown.    <b>Gender:</b> Male.    <b>Date of Birth:</b> 04/04/1940<br>        <b>Age:</b> 75.       <b>Height:</b> 5'4".        <b>Weight:</b> 110 LBS        <b>Blood Type:</b> AB+        <b>Address:</b> 320 EAST, 116 ST , New York, New York 10048.     <b>Mobile Phone Number:</b> 917-246-0000        <b>Home Phone Number:</b> 509-147-5284        <b>Marital Status:</b> Widow.       
+		<b>Emergency Contact:</b> Carl Douglas.     <b>EC Phone:</b> 500-645-8989         <b>Etnicity:</b> Philipino    <b>Soc Sec No:</b> 444-444-4444.       <b>Empl. Status:</b> Retired      <b>MRN:</b> MR-111-1111  <br> <P>
 	
-    <b>Primay Doctor:</b> Wiliam Moore MD, Beth israel-Mont Sinai Hospital, UNION SQUARE, NYC 
-		Phone: 870-632-4748<br>  </p>
-    <b>Insurance Provider:</b> Empire Blue Cross, Blue Shield PP plan.  |   <b>Referred by:</b> Helen Compton MD at ST Lukes Roosvelt 
+    <b>Primary Doctor:</b> Wiliam Moore MD, Beth israel-Mont Sinai Hospital, UNION SQUARE, NYC.<br>
+		<b>Phone:</b> 870-632-4748<br>  </p>
+    <b>Insurance Provider:</b> Empire Blue Cross, Blue Shield PP plan.     <b>Referred by:</b> Helen Compton MD at ST Lukes Roosvelt 
     Hospital, NYC. <br> <P>
 
 <div class="patient--mh">
 
-<b>Patient Medical History, PMH:</b> <br>
-
+<h3><b>Patient Medical History, PMH</b></h3>
 <b>Allergies:</b> Aspirin and Related Drugs (salicylates)NSAIDs group / Ibuprophene and such. / <br>  
 Peniciline / Dust Mites / Cats / Mice. <br>  
 <b>Allergy effects:</b> Obstruction/swwelling in the airways, agressive facial inflammation. <br> 	 <P>
@@ -85,9 +86,7 @@ William Moore MD (08/27/2015) <br> <P>
 
 <b>Difficulties (including changes):</b> Blood pressure is lower than last checkout (Jan/2015).Extremities were inspected and there are no compromised skin. No vision complaints more than Myopia (-4.75).<br> <P>
 
-<b>Home Glucose Monitoring:</b><br>
-AC breakfast 110 to 220 / AC breakfast mean 142 / 
-AC dinner 100 to 250 / AC dinner mean 120. <br> <P>
+<b>Home Glucose Monitoring:</b> AC breakfast 110 to 220 / AC breakfast mean 142. AC dinner 100 to 250 / AC dinner main 120. <br> <P>
 
     </div> <!--CLOSING THIS patient medical history-box div-->
 
@@ -104,6 +103,7 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
 
 </p> </span>
 
+</div>  <!--CLOSING innerbox-patientinformation div-->
 
 <div class="box--editbutton">
 
@@ -112,7 +112,9 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
                 </div> <!--CLOSING box-editsubmit  -->
         </div> <!--CLOSING CONTAINER CLASS-->
 
+<!--MODAL STARTS HERE-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
   <div class="modal-dialog" role="document">
 
     <div class="modal-content">
@@ -124,24 +126,25 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
         <h4 class="modal-title" id="myModalLabel">EDITING PATIENT INFORMATION....</h4>
       </div>
       <div class="modal-body">
-      I can writte here
-      <form class="pure-form pure-form-aligned">
+      .................
+
+<form class="pure-form pure-form-aligned">
 
     <fieldset>
 
         <div class="pure-control-group">
-            <label for="fullname">Full Name:</label>
-            <input id="fullname" type="text" placeholder="Full Name">
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Name">
         </div>
 
         <div class="pure-control-group">
-            <label for="mobilephone">Mobile Phone:</label>
-            <input id="mobilephone" type="text" placeholder="Mobile Phone">
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" type="text" placeholder="Last Name">
         </div>
 
         <div class="pure-control-group">
-            <label for="homephonenumber">Home Phone Number:</label>
-            <input id="homephonenumber" type="text" placeholder="Home Phone Number">
+            <label for="phonenumber">Phone Number:</label>
+            <input id="phonenumber" type="text" placeholder="Phone Number">
         </div>
 
    <div class="pure-control-group">
@@ -162,13 +165,13 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
 
 
    <div class="pure-control-group">
-            <label for="weight">Height:</label>
+            <label for="weight">Weight:</label>
             <input id="weight" type="text" placeholder="Weight">
         </div>
 
 
    <div class="pure-control-group">
-            <label for="height">Weight:</label>
+            <label for="height">Height:</label>
             <input id="height" type="text" placeholder="Height">
         </div>
 
@@ -195,11 +198,10 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
         </div>
 
 
- <div class="bloodtype--andmedhistory"> 
-
- 	<div class="bloodtype">
-  <span> <b>Blood Type:</b></div><select>
-  <option value="A+">A+</option>
+ <div class="bloodtype--andmedhistory">     
+<div class="bloodtype">
+<span>Blood Type:<select>  
+ <option value="A+">A+</option>
   <option value="A-">A-</option>
   <option value="B+">B+</option>
   <option value="AB+">AB+</option>
@@ -208,25 +210,18 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
   <option value="B-">B+</option>
   <option value="O+">O+</option>
   <option value="O-">O-</option>I
-</select> </span> 
- 
+</select> </span>
+  </div> 
+
 
  <div class="pure-control-grouphisto">
             <div class="medicalhistorytext">Medical History: </div>
-          <input class="pure-input-1-2" type="text" placeholder="Physical condition/ surgeries,etc."> 
-              </div>
+          <input class="pure-input-1-2" type="text" placeholder="Describe: physical condition/ surgeries,etc."> 
 </div>
+          </div>
 
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save Changes</button>
-      </div>
-
-
-                <div class="inner">
-                        <p>loading...</p>
-                                </div>
-
+</div>
+      
 
 </form>
 
@@ -238,6 +233,10 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
 		</div>
  </div> 
 		</div>
+
+      </div>
+          </div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
