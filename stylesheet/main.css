@@ -58,6 +58,7 @@ body, html {
    
 }
 
+
 /*border: 1px solid red;*/
 
 
@@ -97,20 +98,8 @@ text-align: justify;
 
 }
 
-.boxforcarelinked a {
 
-font-size: 30px; 
-font-weight:bolder; 
-font-family: helvetica, arial narrow;
-text-align: center;
-
-color: black;
-text-decoration: none;
-
-}
-
-
-.boxforcarelinked  {
+.boxboxforcarelinked  {
 
 width: 300px;
 margin-left: 13.4rem;
@@ -120,6 +109,28 @@ padding-bottom: 6rem;
 margin: 0 auto;
 text-align: center;
 /*border: 2px solid green;*/
+text-decoration: none;
+}
+
+.boxboxforcarelinked a {
+
+font-size: 30px; 
+font-weight:bolder; 
+font-family: helvetica, arial narrow;
+text-align: center;
+
+color: black;
+text-decoration: none;
+
+width: 300px;
+margin-left: 13.4rem;
+margin-top: 2rem;
+padding-bottom: 6rem; 
+
+margin: 0 auto;
+text-align: center;
+/*border: 2px solid green;*/
+text-decoration: none;
 
 }
 
@@ -218,12 +229,6 @@ display: inline-block;
 }
 
 
-.modal-content {
-
-width: 800px;
-
-}
-
 .innerbox--patientinformation{
 
 margin: 1rem;
@@ -234,7 +239,20 @@ background-color: ;
 
 }
 
+.modal-content {
+width: 900px;
+margin: 1rem;
 
+}
+
+.modal-body {
+
+border: 2px solid grey;
+border-radius: 10px;
+margin: 1rem;
+padding: 2rem;
+background-color: 
+}
 
 
 /*.medform {
