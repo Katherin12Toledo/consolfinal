@@ -4,14 +4,14 @@
 
 <head>
 
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
 
 <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
 
@@ -26,7 +26,7 @@
 
 <div class="container">
 
-<div class="boxboxforcarelinked"> 
+<div class="boxforcarelinked"> 
     <a href="index.html">
 CARELINKED </div> </a>
 
@@ -55,17 +55,17 @@ CARELINKED </div> </a>
     <b>Address:</b> 320 EAST, 116 ST , New York, New York 10048.  <br>   
     <b>Mobile Phone Number:</b> 917-246-0000  <br>   
     <b>Home Phone Number:</b> 509-147-5284 <br>       
-    <b>Marital Status:</b> Widow.  <br>
-		<b>Emergency Contact:</b> Carl Douglas.  <br>   
-    <b>EC Phone:</b> 500-645-8989   <br>      
+		<b>Emergency Contact:</b> Carl Douglas.  <br>  <b>Phone Number:</b> 500-645-8989   <br> 
+
+    <b>Marital Status:</b> Widow.  <br>     
     <b>Etnicity:</b> Philipino   <br> 
     <b>Soc Sec No:</b> 444-444-4444.  <br>     
-    <b>Empl. Status:</b> Retired  <br>    
-    <b>MRN:</b> MR-111-1111  <br> <P>
+    <b>Employment Status:</b> Retired  <br> <P>    
 	
     <b>Primary Doctor:</b> Wiliam Moore MD, Beth israel-Mont Sinai Hospital, UNION SQUARE, NYC.<br>
 		<b>Phone:</b> 870-632-4748<br> 
     <b>Insurance Provider:</b> Empire Blue Cross, Blue Shield PP plan. <br>
+     <b>MRN:</b> MR-111-1111  <br> 
     <b>Referred by:</b> Helen Compton MD at ST Lukes Roosvelt Hospital, NYC. <br> <P>
 
 <div class="patient--mh">
@@ -73,10 +73,10 @@ CARELINKED </div> </a>
 <h3><b>Patient Medical History, PMH</b></h3>
 <b>Allergies:</b> Aspirin and Related Drugs (salicylates)NSAIDs group / Ibuprophene and such. / <br>  
 Peniciline / Dust Mites / Cats / Mice. <br>  
-<b>Allergy effects:</b> Obstruction/swwelling in the airways, agressive facial inflammation. <br> 	 <P>
+<b>Effects:</b> Obstruction/swwelling in the airways, agressive facial inflammation. <br> 	 <P>
 
-<b>Important Conditions:</b>
-DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR (LEFT LUNG) (ICD-401.1) <br> <P>
+<b>Physical Status:</b>
+DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR (on left lung, removed last June/2015) (ICD-401.1) <br> <P>
 
 <b>Current Medications</b> <br>  
 PRIVIMOL TABS 20 MG (LISINOPRIL) 1 po qd <br>  
@@ -91,8 +91,9 @@ Last Refill: #30 x 2, (08/27/2015) <br>
 Intake: Only if allergic reaction occur or may occur.
 William Moore MD (08/27/2015) <br> <P>
 
-<b>Physical Examination by (08/27/2015) </b>
-<b>General:</b> Doesn't show malaise, fever, weight loss.<br>
+<b>Complete Physical Examination</b><br>
+Performed on (08/27/2015) <br>
+Doesn't show malaise, fever, weight loss.<br>
 <b>Eyes:</b> Myopia (Eye Glasses -4.75), no irritation, discharge. 
 <b>Cardiovascular:</b> Ocassional chest pain when sudden change of environmental tempeture.<br>
 <b>Respiratory: Had a bening tumor, left lung, removed on June /2015. At this moment, Doesn't show coughing, wheezing, dyspnea, hemoptysis.</b> <br> <P>
@@ -113,7 +114,7 @@ Impression: Control with retinopathy and neuropathy, medium glucometer readings.
 
 At the moment the bening tumor, left lung hasn't appear again. No traces left, no secondary effects of medication.<br>
 
-<u>General physical condition:</u> Stable. Lungs and sugar are under control. Eyesight, Body extremities, Mental; under control as well. Fatigue is not serious. Overall good. <br>
+<u>Conclusion:</u> Stable. Lungs and sugar are under control. Eyesight, Body extremities, Mental; under control as well. Fatigue is not serious. Overall good. <br>
 Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth israel-Mont Sinai Hospital, UNION SQUARE, NYC. <br>
   </div> <!--CLOSING comments-box div-->
 
@@ -121,125 +122,191 @@ Next appointment: December 10th, 2015. Primary Doctor; Wiliam Moore MD, Beth isr
 
 </div>  <!--CLOSING innerbox-patientinformation div-->
 
-<div class="box--editbutton">
+<div class="editbutton">
 
-<button type="button" class="btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Edit </button>
+<button type="button" class="editbutton-btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  EDIT
+</button>
                 
                 </div> <!--CLOSING box-editsubmit  -->
         </div> <!--CLOSING CONTAINER CLASS-->
 
 <!--MODAL STARTS HERE-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-
   <div class="modal-dialog" role="document">
-
     <div class="modal-content">
-
       <div class="modal-header">
-          CARELINKED 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span></button>
-
-        <h4 class="modal-title" id="myModalLabel">UPDATING PATIENT INFORMATION....</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-      .................
+      
+<form class="form-inline">
+    <div class="form-group">
+      <label for="patientid">Patient ID</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Patient ID">
+        </div>
 
-<!--<form class="pure-editing pure-form-aligned"> -->
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Full Name">
+        </div>
 
-<fieldset>
+<div class="middlegroup1--smalls">
 
-<form class="pure-form">
+    <div class="form-group1">
+      <label for="exampleInputName2">Date of Birth</label>
+     <input type="text" class="form-control" id="filling" placeholder="Jane Doe">
+         </div>
 
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
+    <div class="form-group1">
+       <label for="exampleInputName2">Gender</label>
+      <input type="text" class="form-control" id="filling" placeholder="Jane Doe">  </div>
+
+    <div class="form-group1">
+       <label for="age">Age</label>
+      <input type="text" class="form-control" id="filling" placeholder="Jane Doe">  </div>
+
+          </div> <!--CLOSING middlegroup1-->
+  
+  <div class="middlegroup2--smalls">
+
+    <div class="form-group">
+       <label for="height">Height</label>
+      <input type="text" class="form-control" id="filling" placeholder="Jane Doe">  </div>
+
+
+    <div class="form-group">
+       <label for="weight">Weight</label>
+      <input type="text" class="form-control" id="filling" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="bloodtype">Blood Type</label>
+      <input type="text" class="form-control" id="filling" placeholder="Jane Doe">  </div>
+
+          </div>  <!--CLOSING middlegroup2-->
+
+    <div class="form-group">
+       <label for="exampleInputName2">Address</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Mobile Phone Number</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Home Phone Number</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+     <div class="form-group">
+       <label for="exampleInputName2">Email</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Emergency Contact</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">EC Phone Number</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+     <div class="form-group">
+       <label for="exampleInputName2">EC Email</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Marital Status</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Nationality</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+
+    <div class="form-group">
+       <label for="exampleInputName2">Soc Sec No</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+
+    <div class="form-group">
+       <label for="exampleInputName2">Employment Status</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Primary Doctor</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">PD Phone</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">Insurance Provider</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+    <div class="form-group">
+       <label for="exampleInputName2">MRN</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+<div class="form-group">
+       <label for="exampleInputName2">Refered by</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+<div class="form-group">
+       <label for="exampleInputName2">Allergies</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+      <div class="form-group">
+       <label for="exampleInputName2">Effects</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+      <div class="form-group">
+       <label for="exampleInputName2">Physical Status</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+ <div class="form-group">
+       <label for="exampleInputName2">Complete Physical Examination</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+       <div class="form-group">
+       <label for="exampleInputName2">Current Medications</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+       <div class="form-group">
+       <label for="exampleInputName2">Comments and Conslusion</label>
+      <input type="text" class="form-control" id="fillingfields" placeholder="Jane Doe">  </div>
+
+
+
+
+
 </div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
-</div>
-<div class="tittleforinputhere"> Full Name:
-<input class="pure-input-1-3" type="text" placeholder="Full Name">
+
+  <div class="modal-footer">
+
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</fieldset>
                 </form>
 
    </div>
-       
-
-      <div class="box--editbutton">
-
-<button type="button" class="btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Close </button>
-                
-<button type="button" class="btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Save Changes </button>
-                
-                </div> <!--CLOSING box-editbutton-->
-
-
  <!--just in case something doesn't work,there was a div here-->
 
  <!--just in case something doesn't work,there was another div here-->
 
             </div> <!--INNERBOX-patientinformation CLOSING HERE-->
  
-</fieldset>
+
+        </div>
+            </div>
+
+
 
 		</div>
  </div> 

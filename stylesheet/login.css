@@ -26,14 +26,15 @@
 }
 
 
-.boxforcarelinked.clearfix {
+.boxforcarelinked{
 
 width: 400px;
-padding-top: 4rem;
-padding-bottom: 2rem;
-font-size: 35px; font-weight:200; font-family: helvetica, arial narrow;
+padding-top: 3.5rem;
+padding-bottom: 3.5rem;
+font-size: 35px; font-weight:200; 
+font-family: helvetica, arial narrow;
 text-align: center;
-margin-left: 8rem;
+margin: 0 auto;
 color: grey;
 
 text-decoration: none;
@@ -42,64 +43,41 @@ text-decoration: none;
 
 .moduleindex{
 
-  position:relative;
+  text-decoration: none;
+
+  width:550px;  
+  height: 0 auto;
+  border-radius: 5px;
+
   margin-top: 10rem;    
   margin-bottom: 6.5rem;
-  width:550px;  
-  height: 520px;
+
   margin-left:auto;
   margin-right:auto;
+  text-align: center;
 
-text-align: center;
+  background-color: white;
+  
+  position: relative;
 
-background-color: white;
-
-  border-radius: 5px;
-  /*border: 1px solid grey;*/
+  /*border: 1px solid blue;*/
  /* box-shadow: 3px 3px 5px 6px #ccc;
 -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
 */
 
-text-decoration: none;
 }
 
-.module{
-
-  position:relative;
-  margin-top: 7rem;    
-  margin-bottom: 3rem;
-  padding: 2rem;
-
-background-color: white;
-  width:550px;
-  margin-left:auto;
-  margin-right:auto;
-  border-radius:10px;
-  text-decoration: none;
-  /*border: 1px solid grey;*/
-
-    /*box-shadow: 3px 3px 5px 6px #ccc;
--webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;*/
-
-}
-
-.module a {
-
-text-decoration: none;
-
-}
-
-
-.col-md-4.clearfix{
+nav-tabs.col-md-4{
   
   float:left;
   height:60px;
  text-align: center;
   cursor:pointer;
   
+  position: relative;
 
+  margin: 0 auto;
   transition:background .4s;
   box-sizing:border-box;
  
@@ -112,7 +90,7 @@ text-decoration: none;
 
 .activeTab{
   background:#fff;
-   opacity:1;
+  opacity:1;
 }
 
 .button{
@@ -122,13 +100,14 @@ text-decoration: none;
   border:rgba(0,0,0,.3) 0px solid;
   box-sizing:border-box;
   padding:10px;
-  /*margin-bottom:30px;*/
+ 
   background:#90c843;
   color:#FFF;
   font-weight:bold;
   font-size: 12pt;
   transition:background .4s;
   cursor:pointer;
+   /*margin-bottom:30px;*/
 }
 
 .button:hover{
@@ -146,14 +125,15 @@ line-height: 1rem;
 
 .tab-content {
 
-/*border: 2px solid black;*/
-
 width: 400px;
 
 text-align: center;
 margin-top: 7rem;
 margin-left: 7.5rem;
 margin-bottom: 3rem;
+
+/*border: 2px solid black;*/
+
 }
 
 .colortexttabs a {
@@ -162,49 +142,29 @@ color: black;
 
 }
 
-.boxboxbuttons {
-
-width: 450px;
-height: auto;
-display: inline-block;
-margin-left: 2.7rem;
-margin-top: 5rem;
-
-/*border: 2px solid red;*/
-}
-
 /*INDEX VERY FIRST PAGE WHEN OPEN CENTER BUTTONS*/
-.classtop--button{
-width: 490px;
-height: auto;
-
-margin-left: 0.5rem;
-margin-right: 0.5rem; 
-margin-bottom: 3rem;
-
-/*border: 2px solid black;*/
-
-}
 
 .thesetwo--loginbuttons {
 
-/*border: 2px solid green;*/
 display: inline-block;
-height: 35px;
-width: 410px;
-margin-left: 7rem;
 
+margin: 0 auto;
+
+/*border: 2px solid green;*/
+/*height: 35px;
+width: 410px;*/
 }
 
 .boxindexlogin {
 
-/*border: 2px solid black;*/
 width: 75px;
 height: 50px;
 
 float: left;
 display: inline-block;
 margin-left: 24rem;
+
+/*border: 2px solid black;*/
 
 }
 
@@ -216,11 +176,12 @@ background: grey; /*#6699FF*/;
 color:white; font-size: 15px;
 border-radius: 10px;
 
+/*border: 2px solid black;*/
+
 }
 
 .box911--button {
 
-/*border: 2px solid black;*/
 width: 90px;
 height: 65px;
 
@@ -228,6 +189,8 @@ margin-left: rem;
 
 float: left;
 display: inline-block;
+
+/*border: 2px solid black;*/
 
 }
 
@@ -242,7 +205,53 @@ font-size: 20px;
 
 }
 
-.buttonratio-submit {
+.listofpatients {
+
+
+}
+
+/*.module a {
+
+  position:relative;
+  margin-top: 7rem;    
+  margin-bottom: 3rem;
+  padding: 2rem;
+
+  width:550px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+
+  text-decoration: none;
+*/
+}
+
+/*.boxboxbuttons {
+
+width: 450px;
+height: auto;
+display: inline-block;
+margin-left: 2.7rem;
+margin-top: 5rem;
+
+border: 2px solid red; */
+}
+
+
+/*.classtop--button {
+
+width: 490px;
+height: auto;
+
+margin-left: 0.5rem;
+margin-right: 0.5rem; 
+margin-bottom: 3rem;
+
+border: 2px solid black;*/
+
+}
+
+/*.buttonratio-submit {
 
 border-radius: 10px;
 padding-left: 2rem; padding-right: 2rem;
@@ -252,11 +261,13 @@ font-weight: normal;
 color: white;
 margin-right: 0.5rem;
 /*margin-bottom: 2rem;*/
-margin-left: 0.5rem;
+/*margin-left: 0.5rem;
 background-color: #6699FF ;
-}
 
-.boxregister.clearfix {
+border: 2px solid black;
+}*/
+
+/*.boxregister.clearfix {
 
 width: 150px;
 height: 30px;
@@ -265,10 +276,10 @@ margin-left: 19rem;
 margin-top: 4rem;
 font-family: helvetica, arial; font-weight: normal; font-size: 13px;
 text-align: center;
-/*border: 2px solid black;*/
-}
+border: 2px solid black;
+}*/
 
-.boxregister button {
+/*.boxregister button {
 
 background: #6699FF; 
 color:white;
@@ -276,30 +287,30 @@ border-radius: 30px;
 
 }
 
-
-.loginbox{
-
-width: 150px;
-height: 30px;
-margin-left: 19rem;
-margin-top: 2.5rem;
-
-font-family: helvetica, arial; font-weight: normal; 
-font-size: 15px;
-text-align: center;
-
-/*border: 2px solid black;*/
-
-}
-
-
 .hyper--box {
-
 
 border: 3px solid green;
 background-color: green;
 
-}
+}*/
+
+/*.module{
+
+  position:relative;
+  margin-top: 7rem;    
+  margin-bottom: 3rem;
+  padding: 2rem;
+
+  width:550px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  text-decoration: none;
+  border: 1px solid grey;*/
+
+    /*box-shadow: 3px 3px 5px 6px #ccc;
+-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;*/
 
 
 /*<div class="divisorydash">

@@ -97,15 +97,8 @@ text-align: justify;
 padding-right: 5rem;*/
 }
 
-.pure-control-group{
 
-
-background-color: green;
-
-
-}
-
-.boxboxforcarelinked  {
+.boxforcarelinked  {
 
 width: 300px;
 margin-left: 13.4rem;
@@ -119,7 +112,7 @@ text-align: center;
 text-decoration: none;
 }
 
-.boxboxforcarelinked a {
+.boxforcarelinked a {
 
 font-size: 30px; 
 font-weight:bolder; 
@@ -131,32 +124,11 @@ text-decoration: none;
 
 }
 
-/*.caregivertittle--box {
-
-/*border: 3px solid black; */
-/*width: 250px;
-margin-left: 11.6rem;
-margin-top: 3rem;
-padding-bottom: 3rem;
-font-family: helvetica;
-font-size: 18px;
-
-margin: 0 auto;
-text-align: center;
-
-}  */
-
 .patienttittle--box {
 
 margin-left: 9.3rem;
 font-family: helvetica;
 font-size: 20px;
-
-}
-
-.pure-form-editing {
-
-background-color: green;
 
 }
 
@@ -172,28 +144,37 @@ float: right;
 
 }
 
- .box--editbutton {
+ .editbutton {
 
 width: 400px;
 /*margin-top: 3rem;*/
-margin-left: 37rem;
-margin-bottom: 4rem;
-margin-top: 5rem;
+
+margin: 0 auto;
+
+text-align: center;
+
+/*border: 2px solid red;*/
+
+} 
+
+.editbutton-btn {
+background-color: #66CCCC;
+color: white;
+border: none;
+}
+
+ .saveclose--button {
+
+width: 350px;
+/*margin-top: 3rem;*/
+
+margin: 0 auto;
+
+margin-top: 55rem;
 
 /*border: 2px solid black;*/
 
 } 
-
-.pure-input-1-2 {
-width: 150px;
-height: 100px ; 
-
-font-weight: bold;
-display: inline-block; 
-
-/*border: 2px solid blue;*/
-
-}
 
 .medicalhistorytext {
 
@@ -214,22 +195,6 @@ background-color: ;
 
 }
 
-.modal-content {
-width: 900px;
-margin: 1rem;
-
-}
-
-.modal-body {
-
-border: 2px solid grey;
-border-radius: 10px;
-margin: 1rem;
-padding: 2rem;
-background-color: 
-}
-
-
 .tittleforinputhere {
 
 display: inline-block;
@@ -248,6 +213,135 @@ text-align: center;
 text-decoration: none;
 
 }
+
+.modal {
+
+/*margin: 1rem;
+
+height: 900px;
+width: 900px;
+border: 2px solid red;
+this is shape outside modal box */
+
+}
+
+.modal-body {
+
+margin: 1rem;
+padding: 2rem;
+background-color: beige;
+
+border-radius: 10px;
+border: 2px solid grey;
+
+}
+
+.middlegroup1--smalls {
+
+width: 100%;
+/*width: 520px;*/
+border: 1px solid green;
+
+
+}
+
+.middlegroup2--smalls {
+
+width: 100%;
+/*width: 520px;*/
+border: 1px solid red;
+
+}
+
+.form-group1 {
+
+float: left;
+display: inline-block;
+
+}
+
+.form-group2 {
+
+float: left;
+display: inline-block;
+}
+
+
+#filling{
+
+width: 100px;
+
+
+}
+
+
+/*.bloodtype{
+width: 250px;
+margin-left: 4.5rem;
+margin-bottom: 1rem;
+margin-top: 1rem; 
+
+font-weight: bold;
+
+display: inline-block;
+float: left;
+
+border: 2px solid black;
+
+
+/*.bloodtype select {
+
+margin-left: 51rem; 
+*/
+}
+
+
+/*.pure-input-1-3 {
+
+font-weight:;
+display: inline-block; 
+float: left;
+margin-right: 0;
+*/
+
+.modal-dialog {
+
+/*width: 800px;*/
+
+/*border: 2px solid orange;*/
+
+}
+
+/*.pure-form-edit{
+
+height: 800px;
+border: 2px solid blue;*/
+}
+
+
+/*.pure-input-1-2 {
+
+font-weight: bold;
+display: inline-block; 
+
+border: 2px solid blue; textarea*/
+
+}
+
+/*.caregivertittle--box {
+
+/*border: 3px solid black; */
+/*width: 250px;
+margin-left: 11.6rem;
+margin-top: 3rem;
+padding-bottom: 3rem;
+font-family: helvetica;
+font-size: 18px;
+
+margin: 0 auto;
+text-align: center;
+
+}  */
 
 
 /*.pure-control-grouphisto {
