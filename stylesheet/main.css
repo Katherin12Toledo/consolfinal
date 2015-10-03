@@ -133,8 +133,10 @@ font-size: 20px;
 }
 
 select {
-margin-right: 70%;
+margin-right: 20%;
+padding: 0.6rem;
 float: right;
+border-radius: 5px;
 
 }
 
@@ -151,6 +153,9 @@ width: 400px;
 
 margin: 0 auto;
 
+margin-top: 1rem;
+margin-bottom: 1rem;
+
 text-align: center;
 
 /*border: 2px solid red;*/
@@ -161,6 +166,7 @@ text-align: center;
 background-color: #66CCCC;
 color: white;
 border: none;
+
 }
 
  .saveclose--button {
@@ -214,17 +220,6 @@ text-decoration: none;
 
 }
 
-.modal {
-
-/*margin: 1rem;
-
-height: 900px;
-width: 900px;
-border: 2px solid red;
-this is shape outside modal box */
-
-}
-
 .modal-body {
 
 margin: 1rem;
@@ -236,24 +231,29 @@ border: 2px solid grey;
 
 }
 
-.middlegroup1--smalls {
-
-width: 100%;
-/*width: 520px;*/
-border: 1px solid green;
 
 
-}
 
-.middlegroup2--smalls {
 
-width: 100%;
-/*width: 520px;*/
-border: 1px solid red;
 
-}
 
-.form-group1 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.form-group1 {
 
 float: left;
 display: inline-block;
@@ -264,15 +264,17 @@ display: inline-block;
 
 float: left;
 display: inline-block;
-}
 
+}*/
 
-#filling{
+/*.modal {
 
-width: 100px;
+margin: 1rem;
 
-
-}
+height: 900px;
+width: 900px;
+border: 2px solid red;
+this is shape outside modal box */}
 
 
 /*.bloodtype{
