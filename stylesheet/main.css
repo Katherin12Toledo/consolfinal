@@ -137,8 +137,16 @@ margin-right: 20%;
 padding: 0.6rem;
 float: right;
 border-radius: 5px;
+width: 90px;
+text-align: center;
+}
+
+select option {
+
+text-align: center;
 
 }
+
 
 textarea {
 margin-right: 70%;
@@ -232,6 +240,11 @@ border: 2px solid grey;
 }
 
 
+.top-navtab {
+
+background-color: white;
+
+}
 
 
 
