@@ -66,26 +66,23 @@ var mypatient =
     "primarydoctor" : "Wiliam Moore, Beth Israel-Mont Sinai Hospital, UNION SQUARE NYC.",
     "pdphone" : "870-632-4748",
     "insuranceprovider" : "Empire Blue Cross, Blue Shield PPO plan",
-    "referredby" : "Helen Compton MD at ST Lukes Roosvelt Hospital, NYC.",
-    
-    // "patientmedicalhistory" : {
-    //   "Allergies" : "Aspirin", "Related Drugs", "salicylates ", "NSAIDs group", 
-    //     "Ibuprophene and such", "Peniciline", "Dust Mites","Mice",
-    //   "Effects": "Obstruction, swwelling in the airways and agressive facial inflammation.",     
-    //   "physicalstatus" : "DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR on left lung, removed last June,2015 ICD-401.1",
-    //   "Current Medications":  
-    //       { 
-    //       "medication1": "HUMUL COMPOUND INJ 70/30. INSULIN REG and ISOPHANE 20 units",
-    //       "Intake":"ac breakfast.",
-    //       "Last Refill": "#60 x 1.", 
-    //       "prescribingDoctor": "William Moore MD, 08/27/2015"
-    //       }, 
-    //       {
-    //       "medication2" : "LORATADINE TABS 40MG ANTI ALLERGIC",
-    //       "Last Refill": "#30 x 2, 08/27/2015", 
-    //       "Intake": "Only if allergic reaction occur or may occur.",
-    //       "prescribingDoctor" : "William Moore MD 08/27/2015"
-    //       }, 
+    "referredby" : "Helen Compton MD at ST Lukes Roosvelt Hospital, NYC.",    
+      "Allergies" : "Aspirin, Related Drugs, salicylates , NSAIDs group, Ibuprophene and such, Peniciline, Dust Mites,Mice.",
+      "Effects": "Obstruction, swelling in the airways and agressive facial inflammation.",     
+      "physicalstatus" : "DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR on left lung, removed last June,2015 ICD-401.1",
+     
+    "CurrentMedications" : {
+          "medication1": "HUMUL COMPOUND INJ 70/30. INSULIN REG and ISOPHANE 20 units", 
+          "Intake": "ac breakfast.",
+          "Last Refill": "#60 x 1.,prescribing.",
+          "Doctor": "William Moore MD, 08272015",
+           
+          
+          "medication2" : "LORATADINE TABS 40MG ANTI ALLERGIC", 
+          "Last Refill": "#30 x 2 08272015", 
+          "Intake": "Only if allergic reaction occur or may occur.",
+          "Doctor" : "William Moore MD 08272015",
+   },
         
       "completephysicalexamination" : {
         "performedon": "08 27 2015, Doesn't show malaise, fever, weight loss.",
@@ -103,6 +100,10 @@ var mypatient =
       "Primary Doctor" : "Wiliam Moore MD Beth israel-Mont Sinai Hospital UNION SQUARE NYC." 
   }
 };
+
+var fName = mypatient["Steven Brown"]["Name"];
+
+
 $(".patientidid").text(mypatient["Steven Brown"]["patientidid"]);
 $(".Name").text(mypatient["Steven Brown"]["Name"]);
 $(".lastname").text(mypatient["Steven Brown"]["lastname"]);
@@ -134,6 +135,13 @@ $(".pdphone").text(mypatient["Steven Brown"]["pdphone"]);
 
 $(".insuranceprovider").text(mypatient["Steven Brown"]["insuranceprovider"]);
 $(".referredby").text(mypatient["Steven Brown"]["referredby"]);
+
+$(".Allergies").text(mypatient["Steven Brown"]["Allergies"]);
+$(".Effects").text(mypatient["Steven Brown"]["Effects"]);
+$(".physicalstatus").text(mypatient["Steven Brown"]["physicalstatus"]);
+
+$(".CurrentMedications").text(mypatient["Steven Brown"][".CurrentMedications"]);
+
 
 $(".performedon").text(mypatient["Steven Brown"]["completephysicalexamination"]["performedon"]);
 $(".Eyes").text(mypatient["Steven Brown"]["completephysicalexamination"]["Eyes"]);
