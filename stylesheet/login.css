@@ -228,8 +228,6 @@ font-weight: normal;
 }
 
 
-c
-
 .patientmedhis911 {
 
 text-align: left;
@@ -267,6 +265,32 @@ height: 60px ;
 border-radius: 10px;
 
 }
+
+.top-navtab {
+width: 100%;
+height: 90px;
+
+
+background-color:rgba(192,192,192,0.7);
+/*border: 2px solid black;*/
+
+}
+
+.box1{
+
+display: inline-block;
+float: left;
+
+margin-right: 0.6rem;
+margin-top: 3.3rem;
+margin-left: 5rem;
+color: white; font-size: 16px; font-weight: bold;
+/*border: 2px solid black;*/
+}
+
+
+
+
 /*.module a {
 
   position:relative;
