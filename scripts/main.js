@@ -40,6 +40,7 @@ var mypatient =
 
 {
   "Steven Brown" : {
+    "patientidid"  : "TC-CL-45454545",
     "Name" : "Steven",
     "lastname" : "Brown",
     "Gender" : "Male ",
@@ -49,11 +50,11 @@ var mypatient =
     "Weight" : "165",
     "bloodtype" : "AB+",
     "Address" : {
-          "address1" : "320 EAST 57 STREET",
-          "address2" : "apt 305",
-          "city":  "NEW YORK 10048 ",
+          "address1" : "320 EAST, 57 STREET",
+          "address2" : "Apt 305, ",
+          "city":  "NEW YORK, ",
           "state" : "NY",
-          "zip code" : " 10048"
+          "zipcode" : " 10048"
     },
     "mobilenumber" : "917-246-0000",
     "homenumber" : "509-147-5284",
@@ -62,17 +63,17 @@ var mypatient =
     "maritalstatus" : "Widow",
     "Nationality" : "Filipino",
     "socialsecuritynumber" : "444-444-4444",
-    "primarydoctor" : "Wiliam Moore MD Beth israel-Mont Sinai Hospital UNION SQUARE NYC.",
+    "primarydoctor" : "Wiliam Moore, Beth Israel-Mont Sinai Hospital, UNION SQUARE NYC.",
     "pdphone" : "870-632-4748",
-    "insuranceprovider" : "Empire Blue Cross Blue Shield PPO plan",
+    "insuranceprovider" : "Empire Blue Cross, Blue Shield PPO plan",
     "referredby" : "Helen Compton MD at ST Lukes Roosvelt Hospital, NYC.",
     
     // "patientmedicalhistory" : {
     //   "Allergies" : "Aspirin", "Related Drugs", "salicylates ", "NSAIDs group", 
     //     "Ibuprophene and such", "Peniciline", "Dust Mites","Mice",
     //   "Effects": "Obstruction, swwelling in the airways and agressive facial inflammation.",     
-      // "physicalstatus" : "DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR on left lung, removed last June,2015 ICD-401.1",
-      // "Current Medications":  
+    //   "physicalstatus" : "DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR on left lung, removed last June,2015 ICD-401.1",
+    //   "Current Medications":  
     //       { 
     //       "medication1": "HUMUL COMPOUND INJ 70/30. INSULIN REG and ISOPHANE 20 units",
     //       "Intake":"ac breakfast.",
@@ -87,22 +88,22 @@ var mypatient =
     //       }, 
         
       "completephysicalexamination" : {
-        "performedon082715": "Doesn't show malaise, fever, weight loss.",
+        "performedon": "08 27 2015, Doesn't show malaise, fever, weight loss.",
         "Eyes": " Myopia (Eye Glasses -4.75) no irritation or discharge.",
         "Cardiovascular": "Ocassional chest pain when sudden change of environmental tempeture.",
         "Respiratory" : "Had a bening tumor, left lung, removed on June /2015. At this moment doesn't show coughing, wheezing, dyspnea, hemoptysis.",
         "Musculoskeletal": "Presents lower back pain, mild joint swelling.",
         "Skin": " ONLY when allergy occurs; rashes, itching, lumps, sores, lesions, color change.", 
-        "Difficulties (including changes)": "Blood pressure is lower than last checkout (Jan/2015).Extremities were inspected and there are no compromised skin. No vision complaints more than Myopia (-4.75).",
+        "Difficulties": "Blood pressure is lower than last checkout (Aug/2015).Extremities were inspected and there are no compromised skin. No vision complaints more than Myopia (-4.75).",
         "homeglucosemonitoring": "AC breakfast 110 to 220 / AC breakfast mean 142. AC dinner 100 to 250 / AC dinner main 120."
       },
       "Comments": "Control with retinopathy and neuropathy medium glucometer readings, Will work harder on diet. Will increase insulin by 2 units. At the moment the bening tumor on left lung hasn't appear again. No traces left and no secondary effects of medication.",
       "Conclusion": "Stable. Lungs and sugar are under control. Eyesight, Body extremities, Mental; under control as well. Fatigue is not serious. Overall good.",
-      "nextappointment" : " December 10th 2015.", 
+      "nextappointment" : " December 10th, 2015.", 
       "Primary Doctor" : "Wiliam Moore MD Beth israel-Mont Sinai Hospital UNION SQUARE NYC." 
   }
 };
-
+$(".patientidid").text(mypatient["Steven Brown"]["patientidid"]);
 $(".Name").text(mypatient["Steven Brown"]["Name"]);
 $(".lastname").text(mypatient["Steven Brown"]["lastname"]);
 $(".Gender").text(mypatient["Steven Brown"]["Gender"]);
@@ -111,6 +112,14 @@ $(".Age").text(mypatient["Steven Brown"]["Age"]);
 $(".Height").text(mypatient["Steven Brown"]["Height"]);
 $(".Weight").text(mypatient["Steven Brown"]["Weight"]);
 $(".bloodtype").text(mypatient["Steven Brown"]["bloodtype"]);
+
+$(".address1").text(mypatient["Steven Brown"]["Address"]["address1"]);
+$(".address2").text(mypatient["Steven Brown"]["Address"]["address2"]);
+$(".city").text(mypatient["Steven Brown"]["Address"]["city"]);
+$(".state").text(mypatient["Steven Brown"]["Address"]["state"]);
+$(".zipcode").text(mypatient["Steven Brown"]["Address"]["zipcode"]);
+
+
 $(".Address").text(mypatient["Steven Brown"]["address1"]);
 $(".mobilenumber").text(mypatient["Steven Brown"]["mobilenumber"]);
 $(".homenumber").text(mypatient["Steven Brown"]["homenumber"]);
@@ -125,25 +134,20 @@ $(".pdphone").text(mypatient["Steven Brown"]["pdphone"]);
 
 $(".insuranceprovider").text(mypatient["Steven Brown"]["insuranceprovider"]);
 $(".referredby").text(mypatient["Steven Brown"]["referredby"]);
-$(".completephysicalexamination").text(mypatient["Steven Brown"]["completephysicalexamination"]);
-$(".perfomedon").text(mypatient["Steven Brown"]["perfomedon"]);
-$(".Eyes").text(mypatient["Steven Brown"]["Eyes"]);
-$(".Cardiovascular").text(mypatient["Steven Brown"]["Cardiovascular"]);
-$(".Respiratory").text(mypatient["Steven Brown"]["Respiratory"]);
 
-$(".Musculoskeletal").text(mypatient["Steven Brown"]["Musculoskeletal"]);
-$(".Skin").text(mypatient["Steven Brown"]["Skin"]);
-$(".Difficulties").text(mypatient["Steven Brown"]["Difficulties"]);
-$(".homeglucosemonitoring").text(mypatient["Steven Brown"]["homeglucosemonitoring"]);
+$(".performedon").text(mypatient["Steven Brown"]["completephysicalexamination"]["performedon"]);
+$(".Eyes").text(mypatient["Steven Brown"]["completephysicalexamination"]["Eyes"]);
+$(".Cardiovascular").text(mypatient["Steven Brown"]["completephysicalexamination"]["Cardiovascular"]);
+$(".Respiratory").text(mypatient["Steven Brown"]["completephysicalexamination"]["Respiratory"]);
+$(".Musculoskeletal").text(mypatient["Steven Brown"]["completephysicalexamination"]["Musculoskeletal"]);
+$(".Skin").text(mypatient["Steven Brown"]["completephysicalexamination"]["Skin"]);
+$(".Difficulties").text(mypatient["Steven Brown"]["completephysicalexamination"]["Difficulties"]);
+$(".homeglucosemonitoring").text(mypatient["Steven Brown"]["completephysicalexamination"]["homeglucosemonitoring"]);
 $(".Comments").text(mypatient["Steven Brown"]["Comments"]);
 
 
 $(".Conclusion").text(mypatient["Steven Brown"]["Conclusion"]);
 $(".nextappointment").text(mypatient["Steven Brown"]["nextappointment"]);
-
-
-
-
 
 
 
@@ -165,7 +169,7 @@ $(".nextappointment").text(mypatient["Steven Brown"]["nextappointment"]);
 
 
 
-// carelinked.set(mypatient)*PatientID*;
+// carelinked.set(mypatient);
 // carelinked.set("mypatient");
 })();
 
