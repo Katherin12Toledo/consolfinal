@@ -159,26 +159,43 @@ $(".nextappointment").text(mypatient["Steven Brown"]["nextappointment"]);
 
 
 
-
-
-
-
-
-
 // $(".Allergies").text(mypatient["Steven Brown"]["Allergies"]);
 // $(".Effects").text(mypatient["Steven Brown"]["Effects"]);
 
 // $(".physicalstatus").text(mypatient["Steven Brown"]["physicalstatus"]);
 
 
-
-
-
-
-
-
 // carelinked.set(mypatient);
 // carelinked.set("mypatient");
+
+
+
+
+/*
+var infoToSend = "test again please"; 
+function send911(){
+  alert()
+    $.ajax({
+      url: "http://fewdapis-092415.rhcloud.com/carelinked/text?msgbody=",
+      type: "get", //send it through get method
+      data: infoToSend,
+      success: function(data) {
+          console.log(data);
+      },
+      error: function(xhr) {
+          throw new Error("Error");
+      }
+    });
+}
+alert();
+// send911
+$(".js-911-modal-btn").on("click", send911);*/
+
+
+
+
+
+
 })();
 
 
