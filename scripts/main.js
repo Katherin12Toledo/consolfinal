@@ -15,10 +15,10 @@
 
 var carelinked = new Firebase("https://carelinked.firebaseio.com/");
 
-carelinked.child("Steven Brown/Date of Birth").on("value", function(snapshot) {
-  var dob = snapshot.val();  
+// carelinked.child("Steven Brown/Date of Birth").on("value", function(snapshot) {
+//   var dob = snapshot.val();  
 
-});
+// });
 
 // carelinked.child("title").on("value", function(snapshot) {
 //   alert(snapshot.val());  // Alerts "San Francisco"
@@ -70,35 +70,35 @@ var mypatient =
     // "patientmedicalhistory" : {
     //   "Allergies" : "Aspirin", "Related Drugs", "salicylates ", "NSAIDs group", 
     //     "Ibuprophene and such", "Peniciline", "Dust Mites","Mice",
-    //   "Effects": "Obstruction/swwelling in the airways and agressive facial inflammation.",     
-      // "physicalstatus" : "DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR (on left lung, removed last June/2015) (ICD-401.1) ",
+    //   "Effects": "Obstruction, swwelling in the airways and agressive facial inflammation.",     
+      // "physicalstatus" : "DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR on left lung, removed last June,2015 ICD-401.1",
       // "Current Medications":  
     //       { 
     //       "medication1": "HUMUL COMPOUND INJ 70/30. INSULIN REG and ISOPHANE 20 units",
     //       "Intake":"ac breakfast.",
     //       "Last Refill": "#60 x 1.", 
-    //       "prescribingDoctor": "William Moore MD, (08/27/2015)"
+    //       "prescribingDoctor": "William Moore MD, 08/27/2015"
     //       }, 
     //       {
-    //       "medication2" : "LORATADINE TABS 40MG (ANTI ALLERGIC)",
-    //       "Last Refill": "#30 x 2, (08/27/2015)", 
+    //       "medication2" : "LORATADINE TABS 40MG ANTI ALLERGIC",
+    //       "Last Refill": "#30 x 2, 08/27/2015", 
     //       "Intake": "Only if allergic reaction occur or may occur.",
-    //       "prescribingDoctor" : "William Moore MD (08/27/2015)"
+    //       "prescribingDoctor" : "William Moore MD 08/27/2015"
     //       }, 
         
       "completephysicalexamination" : {
-        "Performed on 082715": "Doesn't show malaise, fever, weight loss.",
+        "performedon082715": "Doesn't show malaise, fever, weight loss.",
         "Eyes": " Myopia (Eye Glasses -4.75) no irritation or discharge.",
         "Cardiovascular": "Ocassional chest pain when sudden change of environmental tempeture.",
         "Respiratory" : "Had a bening tumor, left lung, removed on June /2015. At this moment doesn't show coughing, wheezing, dyspnea, hemoptysis.",
         "Musculoskeletal": "Presents lower back pain, mild joint swelling.",
         "Skin": " ONLY when allergy occurs; rashes, itching, lumps, sores, lesions, color change.", 
         "Difficulties (including changes)": "Blood pressure is lower than last checkout (Jan/2015).Extremities were inspected and there are no compromised skin. No vision complaints more than Myopia (-4.75).",
-        "Home Glucose Monitoring": "AC breakfast 110 to 220 / AC breakfast mean 142. AC dinner 100 to 250 / AC dinner main 120."
+        "homeglucosemonitoring": "AC breakfast 110 to 220 / AC breakfast mean 142. AC dinner 100 to 250 / AC dinner main 120."
       },
       "Comments": "Control with retinopathy and neuropathy medium glucometer readings, Will work harder on diet. Will increase insulin by 2 units. At the moment the bening tumor on left lung hasn't appear again. No traces left and no secondary effects of medication.",
       "Conclusion": "Stable. Lungs and sugar are under control. Eyesight, Body extremities, Mental; under control as well. Fatigue is not serious. Overall good.",
-      "Next appointment" : " December 10th 2015.", 
+      "nextappointment" : " December 10th 2015.", 
       "Primary Doctor" : "Wiliam Moore MD Beth israel-Mont Sinai Hospital UNION SQUARE NYC." 
   }
 };
@@ -126,6 +126,32 @@ $(".pdphone").text(mypatient["Steven Brown"]["pdphone"]);
 $(".insuranceprovider").text(mypatient["Steven Brown"]["insuranceprovider"]);
 $(".referredby").text(mypatient["Steven Brown"]["referredby"]);
 $(".completephysicalexamination").text(mypatient["Steven Brown"]["completephysicalexamination"]);
+$(".perfomedon").text(mypatient["Steven Brown"]["perfomedon"]);
+$(".Eyes").text(mypatient["Steven Brown"]["Eyes"]);
+$(".Cardiovascular").text(mypatient["Steven Brown"]["Cardiovascular"]);
+$(".Respiratory").text(mypatient["Steven Brown"]["Respiratory"]);
+
+$(".Musculoskeletal").text(mypatient["Steven Brown"]["Musculoskeletal"]);
+$(".Skin").text(mypatient["Steven Brown"]["Skin"]);
+$(".Difficulties").text(mypatient["Steven Brown"]["Difficulties"]);
+$(".homeglucosemonitoring").text(mypatient["Steven Brown"]["homeglucosemonitoring"]);
+$(".Comments").text(mypatient["Steven Brown"]["Comments"]);
+
+
+$(".Conclusion").text(mypatient["Steven Brown"]["Conclusion"]);
+$(".nextappointment").text(mypatient["Steven Brown"]["nextappointment"]);
+
+
+
+
+
+
+
+
+
+
+
+
 
 // $(".Allergies").text(mypatient["Steven Brown"]["Allergies"]);
 // $(".Effects").text(mypatient["Steven Brown"]["Effects"]);
