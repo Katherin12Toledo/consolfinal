@@ -171,10 +171,10 @@ $(".nextappointment").text(mypatient["Steven Brown"]["nextappointment"]);
 
 
 
-/*
-var infoToSend = "test again please"; 
+
+/*var infoToSend = "test again please"; 
 function send911(){
-  alert()
+  alert("hi");
     $.ajax({
       url: "http://fewdapis-092415.rhcloud.com/carelinked/text?msgbody=",
       type: "get", //send it through get method
@@ -187,9 +187,10 @@ function send911(){
       }
     });
 }
-alert();
+
+
 // send911
-$(".js-911-modal-btn").on("click", send911);*/
+$(".modal-footer .button-primary").on("click", send911);*/
 
 
 
