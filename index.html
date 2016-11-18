@@ -1,0 +1,237 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+ 
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+   <link rel="stylesheet" href="stylesheet/login.css">
+
+  <title>CARELINKED</title>
+</head>
+
+<body class="mybackground">
+
+<!--<div class="caretitle"><p>CARELINKED</p></div> -->
+ 
+         <div class="top-navtab">
+                       
+ <a href="aboutus.html">                      
+<div class="box1">ABOUT US</div></a>
+
+<a href="index.html"> 
+  <div class="box1">REGISTER</div> </a>
+
+<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"> 
+  <div class="box1">CONTACT</div> </a>
+        
+        </div> 
+
+
+ <div class="allwrapper clearfix">
+
+<div class="moduleindex">
+
+
+<div class="boxforcarelinked clearfix">
+CARELINKED </div> 
+
+
+    <div class="login-loginbox">
+      <!-- Nav tabs -->
+      <div class="topnav-tabs">
+
+        <ul class="nav nav-tabs " role="tablist">
+
+          <li class="active col-md-4">
+
+            <a href="#caregiver" aria-controls="caregiver" role="tab" data-toggle="tab">Caregiver </a>
+          </li> 
+
+          <li class="col-md-4">
+
+            <a href="#patient" aria-controls="patient" role="tab" data-toggle="tab">Patient</a></li>
+          
+
+          <li  class="col-md-4">
+            <a href="#hospital" aria-controls="hospital" role="tab" data-toggle="tab">Hospital</a></li>
+          
+
+          </ul> 
+      </div>
+
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="caregiver">
+            
+            <input type="email" class="form-control input-lg" id="email" placeholder="Caregiver email" required="" /><br>
+
+            <input type="password" class="form-control input-lg" id="password" placeholder="Caregiver password" required="" /> <br>
+
+<div class="listofpatients">
+<span>Patient:
+<select>
+  <option value="patient1">Anne Johnson</option>
+  <option value="patient2">Steven Brown</option>
+  <option value="patient3">Clark Davis</option>
+  <option value="patient4">Gregory Carter</option>
+  <option value="patient5">Jason Mitchell</option>
+  <a href="plainform.html"><option value="patient6">Carl Moore</option></a>
+</select> </span>
+  </div> 
+                </div>
+
+
+      <div role="tabpanel" class="tab-pane fade" id="patient">
+
+         <input type="email" class="form-control input-lg" id="email" placeholder="Patient email" required="" /> <br>
+         
+         <input type="password" class="form-control input-lg" id="password" placeholder="Patient password" required="" /> <br>
+
+      </div>
+
+      
+      <div role="tabpanel" class="tab-pane fade" id="hospital">
+         
+          <input type="text" class="form-control input-lg" id="text" placeholder="Hospital CL ID" required="" /> <br>
+
+         <input type="email" class="form-control input-lg" id="email" placeholder="Email" required="" /> <br>
+         
+         <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" /> <br>
+
+      </div> 
+
+        
+       <!-- <div role="tabpanel" class="tab-pane" id="profile">WORD</div>
+        <div role="tabpanel" class="tab-pane" id="messages">WORD</div>
+        <div role="tabpanel" class="tab-pane" id="settings">WORD</div> -->
+      </div>
+
+    </div>  <!-- THIS CLOSES LOGIN BOX CLAss -->
+
+<div class="thesetwo--loginbuttons">
+
+
+<div class="box911--button">
+      <a href="#">
+      <button type="button" class="js-911-modal-btn buttonratio-911-submit pure-button" data-toggle="modal" data-target=".js-911-modal-popup">
+      911</button> </div> 
+
+
+ <div class="boxindexlogin clearfix">
+  <a href="plainform.html">
+  <button class="button-indexlogin pure-button">
+    LOGIN</button>  </div> </a>
+
+  </div> 
+      <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> 
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade js-911-modal-popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+
+        <h4 class="modal-title" id="myModalLabel"> YOU'RE ABOUT TO CONTACT  911</h4>
+      </div>
+      <div class="modal-body911">
+
+        <div class="subtitledefineemergency">
+       <b>In short, define your emergency</b> </div>
+
+       
+       <input type="text" class="form-controlcontrol" placeholder="Describe"> <br>
+     
+
+<div class="patientmedhis911">
+       <b><p>PATIENT MEDICAL HISTORY</p></b>
+        <p><b>Patient ID:</b> TC-CL-45454545 <br>
+        <b>Name:</b> Steven <br>
+        <b>Last Name:</b> Brown <br>
+        <b>Gender:</b> Male <br>
+        <b>Date of Birth:</b> 04/04/1940 <br>
+         <b>Age:</b> 75 <br>
+         <b>Height:</b> 5'9 <br>
+         <b>Weight:</b> 165 <br>
+         <b>Blood Type:</b> AB+ <br>
+         <b>Mobile Number:</b> 917-246-0000 <br> 
+         <b>Home Number:</b> 509-147-5284 <br>
+         <b>Person of Contact:</b> 509-147-5284 <br>
+         <b>Phone Number:</b> 917-246-0000 <br>
+         <b>Primary Doctor:</b> Wiliam Moore, <br>
+        Beth Israel-Mont Sinai Hospital,<br> 
+        UNION SQUARE NYC.<br>
+         <b>PD Phone:</b> 870-632-4748 <br>
+         <b>Insurance Provider:</b> Empire Blue Cross, <br>
+        Blue Shield PPO plan <br>
+         <b>Allergies:</b> Aspirine,Related Drugs,NSAIDs group. <br>
+        Ibuprophene and such.<br> 
+         <b>Effects:</b>Obstruction/swwelling in the airways and agressive facial inflammation.<br>
+        DIABETES TYPE II (ICD-250), HYPERTENSION and BENIGN TUMOR (on left lung, removed last June/2015) (ICD-401.1).<br>
+        <p><b>Had a bening tumor, left lung, removed on June /2015. At this moment doesn't show coughing, wheezing, dyspnea, hemoptysis.</b></p><br>
+         <b>Current Medications:</b> HUMUL COMPOUND INJ 70/30. INSULIN REG and ISOPHANE 20 units. Intake:ac breakfast. Last Refill: #60 x 1.<br>
+</div>
+
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">SEND</button>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+    </div>    <!-- Closes box911button-->  
+
+</div>  <!-- closes boxboxbuttons-->
+
+
+ <!--<div class="textarea--boxes">
+   <input type="text" name="name" placeholder="Name" required class="form-control input-lg" value="" /> <br>   -->
+
+
+<!--<div class="bottom--wrapper" <a href="#">Create account</a> or 
+            <a href="#">reset password</a> <br> >-->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+       
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
